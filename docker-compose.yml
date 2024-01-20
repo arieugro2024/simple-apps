@@ -2,11 +2,11 @@ services:
   web-apps:
     build: ./apps
     container_name: web-apps
-    image: imaga-arie
+    image: image-arie
     ports:
-      -5000:3000
+      - 5000:3000
     volumes:
-      -web-app-data:/app/public/images
+      - web-app-data:/app/public/images
 
 
 
